@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.navbar {
+    font-size: 50px;
+    box-shadow: 0 0 10px black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.question-list {
+    width: 30%;
+    box-shadow: 0 0 10px black;
+    height: 1000px;
+}
