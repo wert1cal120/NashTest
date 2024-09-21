@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.navbar {
+    font-size: 50px;
+    box-shadow: 0 0 10px black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.test-content {
+    display: flex;
+}
+
+#question-list {
+    width: 20%;
+    box-shadow: 0 0 10px black;
+    height: 1000px;
+}
+
+#question-page {
+    width: 80%;
+}
