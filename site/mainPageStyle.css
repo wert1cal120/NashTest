@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 120px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.test-join {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    padding: 50px 200px;
+    font-size: 50px;
+    gap: 50px;
+}
+
+.test-join .input{
+    display: flex;
+    gap: 20px;
+}
+
+.test-join .input input {
+    font-size: 40px;
+    border: 0;
+    border-bottom: 2px solid rgb(125, 125, 125);
+}
+
+.test-join .input button {
+    background-color: #45ab45;
+    border: 2px solid #45ab45;
+    color: white;
+    transition: all 0.1s ease-in-out;
+    border-radius: 5px;
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+.test-join .input button:hover {
+    background-color: #57dc57;
+    
+}
+
+.sign-up {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 90%;
+    left: 80%;    
+}
+
+.sign-up button {
+    background-color: #149aec;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 50px;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.sign-up button:hover{
+    transform: scale(110%);
+    font-size: 25px;
+}
